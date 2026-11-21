@@ -7,7 +7,10 @@ if [ -x .tools/bin/chloroplast ]; then exit 0; fi
 mkdir -p .tools/chloroplast-src .tools/packages
 source_repo=${CHLOROPLAST_SOURCE:-../../wilderness_labs/Chloroplast}
 if [ ! -d "$source_repo/.git" ]; then
-  git clone https://github.com/WildernessLabs/Chloroplast.git .tools/upstream
+  if [ ! -d .tools/upstream/.git ]; then
+    git clone --no-checkout https://github.com/WildernessLabs/Chloroplast.git .tools/upstream
+  fi
+  git -C .tools/upstream fetch origin "$revision"
   source_repo=.tools/upstream
 fi
 git -C "$source_repo" archive --output="$(pwd)/.tools/chloroplast-source.tar" "$revision"
