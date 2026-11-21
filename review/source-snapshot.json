@@ -1,0 +1,112 @@
+{
+  "Cercano/README.md": {
+    "sha256": "f0bf8be0ac28e3007cc65e9eb77d6257f2ca15d2ed7befd79443a851e1d6ac86"
+  },
+  "Cercano/docs/README.md": {
+    "sha256": "84f7c8ea03234c96dd27480dc186c14385cc4cf8780fca0c67fee47730a02507"
+  },
+  "Cercano/docs/acp.md": {
+    "sha256": "747c3bda7f0e697a0bddbb824e8eca8fd2ce66da1378970973cabed0450b9614"
+  },
+  "Cercano/docs/agent/README.md": {
+    "sha256": "951dcc1162971f338983f156c502a8736c28e45f963a2cf8ee84b55dfea25acf"
+  },
+  "Cercano/docs/agent/features/advanced-terminal-ui.md": {
+    "sha256": "72e3a58bda0bc0f4077483ed5f52841400960a644f124a0d7a328ffc3979a2fd"
+  },
+  "Cercano/docs/agent/features/built-in-delegation.md": {
+    "sha256": "230ea06b5aa73e6b776d937c52aa0e62497c836ce60cb5c8477b68f437740a74"
+  },
+  "Cercano/docs/agent/features/context-management.md": {
+    "sha256": "97272f39ca771ea183b7ea788a159b55530f8c42fd6393882008c43cd314d31d"
+  },
+  "Cercano/docs/agent/features/openai-providers.md": {
+    "sha256": "9055d1eca75f73a7068c4278beba45b2c1a8b0100ea808cf327e0c81e061eb1e"
+  },
+  "Cercano/docs/agent/features/powerful-agent-workflows.md": {
+    "sha256": "33a7d9cb250c4a2191c60e3695b4acb64ed9598e395bd299d9082691200c887a"
+  },
+  "Cercano/docs/agent/independent-tasks.md": {
+    "sha256": "cf581de1ddf8f76cc3ba5385ec42f42e25d83d0d3f7ab14880cd70bc857379ab"
+  },
+  "Cercano/docs/cloud-routing.md": {
+    "sha256": "df2da3618ec51f6451ff87ef1e88485a922293d3ebda4bd6904e10a2e281705b"
+  },
+  "Cercano/docs/enterprise-connection.md": {
+    "sha256": "01cfe8d28f01bcd9b6126ca625f2cfb02fbfab7955d9778b0493763457736f1e"
+  },
+  "Cercano/docs/enterprise-implementation-status.md": {
+    "sha256": "0ce1325b9fc5e571c156f0429cb02799fb3c8939a5dbef9e0b818bfc78c00838"
+  },
+  "Cercano/docs/enterprise-managed-routing.md": {
+    "sha256": "c0c29ce5a7f7fc28dc6d52df9d0318b6ad51b0aa1611890b8daff4df848cb6cb"
+  },
+  "Cercano/docs/enterprise-shared-skills.md": {
+    "sha256": "5ec8238db8757c02d38595f1817aecc3be871c4f065fab737d7329009d16c297"
+  },
+  "Cercano/docs/installation-macos.md": {
+    "sha256": "ba3fcc74659e716e621b4631d5b156e289daf91161ff6f0941da044a43616eed"
+  },
+  "Cercano/docs/reference/agent-skills-guide.md": {
+    "sha256": "9937b2db42bb8dc922014d8ad424c1900dc9536eda3f3b2f3a87de4338de4384"
+  },
+  "Cercloud/README.md": {
+    "sha256": "8dfaa774159d23e2919ed01df93657792625323112e321c73198eb310418615d"
+  },
+  "Cercloud/product/control-plane.md": {
+    "sha256": "7b1075b57ef6a5b3566e7f1a06c16ef11cf00220c48a9514906ab9c42708901f"
+  },
+  "Cercloud/product/hosted-collaboration.md": {
+    "sha256": "63564d69e50d75a1524c1b50d1f17479c4cf9437e0c768ea8ed4a673395f8bd9"
+  },
+  "cercano-enterprise/docs/administration-console.md": {
+    "sha256": "7338e9e1af323019969ad304aeb945ad99f6e08ec6d2ae1fa7392e529a6790cd"
+  },
+  "cercano-enterprise/docs/console-demo.md": {
+    "sha256": "3a3310c270c0f8b7dc6fe4dd6112ace7b42859934ddacc6687933381468c9231"
+  },
+  "cercano-enterprise/docs/deployment.md": {
+    "sha256": "cd051d78cceeda2bf641e66730fb0770e5638c1c1ce37890a312379662035901"
+  },
+  "cercano-enterprise/docs/google-sign-in.md": {
+    "sha256": "1a5743a73fc3de5824bc3b463d5b02e60faf2444ad97899769e029d085b807ed"
+  },
+  "cercano-enterprise/docs/implementation-status.md": {
+    "sha256": "1aa936d60b8f29f14f3bf7183e9b61831feb0d18376928c51922a41fe624b3dc"
+  },
+  "cercano-enterprise/docs/inference-audit.md": {
+    "sha256": "d631b21fb2775bad58533f6ee7dc9e0fb5d4eb43d3459e6d5a90b830202d02e3"
+  },
+  "cercano-enterprise/docs/membership-administration.md": {
+    "sha256": "d805f42e6ea9f301ecbc1b87d2c02c32a9b7fed3a45c25c929111f7a6a93992f"
+  },
+  "cercano-enterprise/docs/policy-publication.md": {
+    "sha256": "b92e70af6f79716b217da2ca16605c0d7b5e6e3ea4ad3f90ccc84d2e8ba28b27"
+  },
+  "cercano-enterprise/docs/recovery.md": {
+    "sha256": "01492fb17210057f5b5a429c5e7701e5a8b05a03c84b4544dfabd57d93af3571"
+  },
+  "cercano-enterprise/docs/v1-acceptance.md": {
+    "sha256": "27775bdcf4a4e6fc0f0e10cf0299d458e26d038a25a216dda44fe8e0192e9262"
+  },
+  "Cercano": {
+    "head": "38041b6e0c4b3280c5f9bcc90b45ab61d71dc076",
+    "branch": "main",
+    "working_tree_dirty": true
+  },
+  "Cercloud": {
+    "head": "1c4ce8e21570c552be6a701711ecd619f952a036",
+    "branch": "main",
+    "working_tree_dirty": true
+  },
+  "cercano-enterprise": {
+    "head": "a61afc38db0378df7bab2ba46d92f191761bd2a6",
+    "branch": "main",
+    "working_tree_dirty": false
+  },
+  "cercloud-site": {
+    "head": "2df98f2b55e2ede53a05259beb16c0243cdc8481",
+    "branch": "main",
+    "working_tree_dirty": false
+  }
+}

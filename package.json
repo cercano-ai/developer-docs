@@ -1,0 +1,16 @@
+{
+  "name": "cercano-cercloud-developer-docs",
+  "version": "1.0.0",
+  "description": "Local Chloroplast documentation draft for Cercano and Cercloud",
+  "scripts": {
+    "bootstrap": "sh scripts/bootstrap.sh",
+    "build": "node scripts/build.mjs",
+    "check": "python3 scripts/check-links.py out",
+    "preview": "python3 -m http.server 4321 --bind 127.0.0.1 --directory out"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "highlight.js": "11.11.1"
+  },
+  "private": true
+}

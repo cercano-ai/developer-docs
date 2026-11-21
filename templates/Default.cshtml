@@ -1,0 +1,7 @@
+@inherits Chloroplast.Core.Rendering.ChloroplastTemplateBase<Chloroplast.Core.Rendering.RenderedContent>
+<article class="prose" id="main" tabindex="-1" data-search-content>
+<p class="eyebrow">@Model.GetMeta("section")</p>
+<h1>@Model.GetMeta("title")</h1>
+@Raw(Model.Body)
+<footer class="article-footer">Cercano + Cercloud documentation <span>Local review draft</span></footer>
+</article>

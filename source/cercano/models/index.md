@@ -1,0 +1,63 @@
+---
+title: "Models and providers"
+section: "Cercano"
+description: "Models and providers for Cercano and Cercloud."
+---
+
+> Source: [Cercano/docs/agent/features/openai-providers.md](https://github.com/cercano-ai/Cercano/blob/main/docs/agent/features/openai-providers.md). 
+
+
+## What it is
+
+Cercano can connect to OpenAI-compatible Chat Completions endpoints using a
+configured base URL, credentials, and model. That includes compatible hosted
+open-weight services and self-hosted inference servers, not just OpenAI itself.
+Profiles connect these endpoints to Cercano's routing system.
+
+### Frontier subscriptions and open models together
+
+Cercano also has provider-specific subscription sign-in paths for ChatGPT and
+Claude, separate from API-key access to compatible endpoints. You can use a
+frontier provider for the main conversation and route suitable delegated work
+to local or hosted open-weight models—or use those models on their own.
+
+Subscription sign-in is not a universal replacement for API credentials. Account
+eligibility, usage limits, provider terms, and third-party-client support apply;
+availability can change. An implemented sign-in path is not a promise of provider
+endorsement or unlimited access. Check the options presented in `/config` → **Cloud** and the
+[current provider reference](https://github.com/cercano-ai/Cercano/blob/main/docs/agent/README.md).
+
+## Why it matters
+
+Choose inference based on capability, price, and where you want work to run—not
+on whether your coding agent has a bespoke integration with a particular vendor.
+Change providers or try new open-weight models while keeping the same terminal,
+sessions, tools, and delegation workflow. Combining frontier and open models
+lets you reserve your frontier allowance or API budget for work that benefits
+from it instead of using the same inference route for every task.
+
+## Try it
+
+Open `/config` → **Cloud**. Configure a Chat Completions profile with your provider's base URL,
+credentials, and a tool-capable model. Assign the profile to the desired cloud
+destination in **Routing**, save the settings, and test a small read-only task.
+`/cloud` lists profiles; `/cloud use <name>` selects the active profile and
+`/cloud key <name> <api-key>` updates a key. It is not the profile editor.
+
+See the [OpenAI-compatible setup guide](https://github.com/cercano-ai/Cercano/blob/main/docs/agent/cloud-openai.md) and
+[cloud routing guide](https://github.com/cercano-ai/Cercano/blob/main/docs/cloud-routing.md) for configuration details.
+
+## Controls and limitations
+
+- Compatibility is not universal certification. Providers differ in tool
+  calling, streaming, context limits, image support, and usage reporting.
+- Image input for compatible Chat Completions/Responses models requires
+  confirmed model vision capability; a compatible wire format alone is not enough.
+- A model that handles plain chat may still be unsuitable for an agent's tool loop.
+- Hosted endpoints receive the content routed to them and have their own
+  pricing and data policies. An open-weight model does not imply local inference.
+- OpenAI Responses and subscription sign-in are distinct provider paths; support
+  for Chat Completions does not imply identical behavior across those paths.
+
+Back to the [feature index](https://github.com/cercano-ai/Cercano/blob/main/docs/agent/features/README.md).
+

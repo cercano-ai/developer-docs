@@ -1,0 +1,13 @@
+title: Cercano + Cercloud Documentation
+description: Install Cercano, connect your organization, and administer Cercloud.
+baseUrl: https://developer.cercloud.ai
+basePath: ""
+defaultLocale: en
+supportedLocales:
+  - en
+cacheBusting:
+  enabled: true
+templates_folder: templates
+areas:
+  - source_folder: /source
+    output_folder: /

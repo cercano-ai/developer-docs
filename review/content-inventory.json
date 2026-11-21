@@ -1,0 +1,156 @@
+[
+  {
+    "page": "/",
+    "title": "Cercano + Cercloud",
+    "sources": [
+      "Cercano/README.md",
+      "Cercloud/README.md",
+      "cercano-enterprise/docs/implementation-status.md"
+    ]
+  },
+  {
+    "page": "/getting-started/",
+    "title": "What Cercano and Cercloud are",
+    "sources": [
+      "Cercano/README.md",
+      "Cercloud/README.md",
+      "cercano-enterprise/docs/implementation-status.md"
+    ]
+  },
+  {
+    "page": "/getting-started/install/",
+    "title": "Install Cercano",
+    "sources": [
+      "Cercano/docs/installation-macos.md"
+    ]
+  },
+  {
+    "page": "/getting-started/first-run/",
+    "title": "First run",
+    "sources": [
+      "Cercano/docs/installation-macos.md",
+      "Cercano/docs/agent/features/advanced-terminal-ui.md"
+    ]
+  },
+  {
+    "page": "/getting-started/connect/",
+    "title": "Connect to Cercloud",
+    "sources": [
+      "Cercano/docs/enterprise-connection.md"
+    ]
+  },
+  {
+    "page": "/cercano/tui/",
+    "title": "Terminal user interface",
+    "sources": [
+      "Cercano/docs/agent/features/advanced-terminal-ui.md"
+    ]
+  },
+  {
+    "page": "/cercano/models/",
+    "title": "Models and providers",
+    "sources": [
+      "Cercano/docs/agent/features/openai-providers.md"
+    ]
+  },
+  {
+    "page": "/cercloud/model-policy/",
+    "title": "Model policy and routing",
+    "sources": [
+      "cercano-enterprise/docs/policy-publication.md"
+    ]
+  },
+  {
+    "page": "/cercloud/shared-skills/",
+    "title": "Managed shared skills",
+    "sources": [
+      "Cercano/docs/enterprise-shared-skills.md"
+    ]
+  },
+  {
+    "page": "/cercano/",
+    "title": "Use Cercano",
+    "sources": [
+      "Cercano/docs/README.md",
+      "Cercano/docs/acp.md",
+      "Cercano/docs/agent/independent-tasks.md",
+      "Cercano/docs/agent/features/context-management.md",
+      "Cercloud/product/hosted-collaboration.md"
+    ]
+  },
+  {
+    "page": "/cercloud/",
+    "title": "Administer Cercloud",
+    "sources": [
+      "cercano-enterprise/docs/implementation-status.md",
+      "cercano-enterprise/docs/console-demo.md",
+      "cercano-enterprise/docs/membership-administration.md",
+      "cercano-enterprise/docs/administration-console.md",
+      "cercano-enterprise/docs/inference-audit.md",
+      "Cercloud/README.md"
+    ]
+  },
+  {
+    "page": "/administration/",
+    "title": "Operator administration",
+    "sources": [
+      "cercano-enterprise/docs/deployment.md",
+      "cercano-enterprise/docs/recovery.md",
+      "cercano-enterprise/docs/google-sign-in.md",
+      "cercano-enterprise/docs/v1-acceptance.md"
+    ]
+  },
+  {
+    "page": "/extend/",
+    "title": "Extend the platform",
+    "sources": [
+      "Cercano/docs/reference/agent-skills-guide.md",
+      "Cercano/docs/agent/features/powerful-agent-workflows.md",
+      "Cercano/docs/agent/features/built-in-delegation.md",
+      "Cercano/docs/acp.md",
+      "Cercano/docs/enterprise-connection.md",
+      "Cercloud/product/control-plane.md"
+    ]
+  },
+  {
+    "page": "/reference/",
+    "title": "Configuration and CLI reference",
+    "sources": [
+      "Cercano/docs/agent/README.md",
+      "Cercano/docs/cloud-routing.md",
+      "Cercano/docs/enterprise-managed-routing.md",
+      "Cercano/docs/installation-macos.md",
+      "Cercano/docs/enterprise-connection.md"
+    ]
+  },
+  {
+    "page": "/troubleshooting/",
+    "title": "Troubleshooting",
+    "sources": [
+      "Cercano/docs/installation-macos.md",
+      "Cercano/docs/enterprise-connection.md"
+    ]
+  },
+  {
+    "page": "/releases/",
+    "title": "Releases",
+    "sources": [
+      "Cercano/README.md",
+      "Cercano/docs/installation-macos.md",
+      "cercano-enterprise/docs/implementation-status.md",
+      "cercano-enterprise/docs/v1-acceptance.md"
+    ]
+  },
+  {
+    "page": "/about-this-draft/",
+    "title": "Scope and open questions",
+    "sources": [
+      "Cercano/docs/enterprise-implementation-status.md",
+      "cercano-enterprise/docs/implementation-status.md",
+      "cercano-enterprise/docs/administration-console.md",
+      "cercano-enterprise/docs/membership-administration.md",
+      "Cercloud/README.md",
+      "Cercano/docs/installation-macos.md"
+    ]
+  }
+]
