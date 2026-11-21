@@ -4,9 +4,6 @@ section: "Cercano"
 description: "Terminal user interface for Cercano and Cercloud."
 ---
 
-> Source: [Cercano/docs/agent/features/advanced-terminal-ui.md](https://github.com/cercano-ai/Cercano/blob/main/docs/agent/features/advanced-terminal-ui.md). 
-
-
 ## What it is
 
 Cercano's terminal client combines rich response formatting, responsive layouts,
@@ -15,6 +12,8 @@ Subagent tabs separate delegated investigations from the main conversation, so
 you can inspect their progress without losing your place in the parent task.
 Settings bring model selection, routing, permissions, and metrics into the same
 interface instead of requiring a separate configuration workflow.
+
+<figure class="video-figure"><video controls playsinline preload="metadata" poster="../../assets/videos/terminal-ui.jpg" aria-label="Cercano terminal interface and themes"><source src="../../assets/videos/terminal-ui.mp4" type="video/mp4" />Your browser does not support embedded video.</video><figcaption>A polished terminal interface with the palettes used across the Cercano sites.</figcaption></figure>
 
 ## Why it matters
 
@@ -48,14 +47,12 @@ search and switch to the subagent tab to follow that investigation.
 - Subagent tabs show independent task progress. Public dispatch returns an
   acceptance receipt; the parent can continue while the child runs. Closing a
   tab dismisses it, while `task_stop` explicitly stops execution. See
-  [independent tasks](https://github.com/cercano-ai/Cercano/blob/main/docs/agent/independent-tasks.md).
+  [delegation and subagents](../delegation/).
 - The interactive client and headless output are different presentations of
   the same agent; do not expect terminal interactions in a script.
-- The [CLI guide](https://github.com/cercano-ai/Cercano/blob/main/docs/features/cli/README.md) describes current controls and
-  links to historical interface plans.
-  Formatting claims are not a promise that every planned control is implemented.
+- Interactive and headless clients expose different controls. Formatting claims
+  are not a promise that every historical interface plan is implemented.
 
-See the [agent command reference](https://github.com/cercano-ai/Cercano/blob/main/docs/agent/README.md).
-
-Back to the [feature index](https://github.com/cercano-ai/Cercano/blob/main/docs/agent/features/README.md).
+Continue to [context and sessions](../context/), [token metrics](../metrics/), or
+the [complete feature guide](../features/).
 

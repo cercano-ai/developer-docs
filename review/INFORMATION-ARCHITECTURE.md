@@ -1,6 +1,6 @@
 # Proposed information architecture
 
-The 17-page draft implements the navigation shell and representative content. Nested items below that do not have their own local page are covered by a section in the parent hub and linked to repository evidence, or explicitly marked as a gap. No empty destination or invented setup guide is presented as finished documentation.
+The 22-page site implements the navigation shell, representative product documentation, and the detailed Cercano feature material migrated out of the static marketing site. Nested items below that do not have their own local page are covered by a section in the parent hub and linked to repository evidence, or explicitly marked as a gap. No empty destination or invented setup guide is presented as finished documentation.
 
 - Documentation home — choose one of five tasks.
 - Getting started
@@ -9,12 +9,16 @@ The 17-page draft implements the navigation shell and representative content. Ne
   - First run
   - Connect to Cercloud (current macOS pilot guide)
 - Cercano
+  - Feature guide
   - TUI (adapted)
   - IDE integrations (source entry; editor-specific migration pending)
   - Persistent agents (availability gap)
   - Models and providers (adapted)
-  - Skills, agents, plugins, workflows (extension hub and source entries)
-  - Sessions, context, configuration (source entries)
+  - Delegation and subagents (adapted, with product demonstration)
+  - Skills, agents, plugins, workflows (adapted extension guide)
+  - Context and sessions (adapted, with product demonstration)
+  - Token metrics (adapted, with product demonstration)
+  - Runtime architecture (adapted)
 - Cercloud
   - Organization setup / identity and access (curated guide with operator sources)
   - Teams and permissions (curated from implementation status / console)

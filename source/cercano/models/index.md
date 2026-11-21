@@ -4,9 +4,6 @@ section: "Cercano"
 description: "Models and providers for Cercano and Cercloud."
 ---
 
-> Source: [Cercano/docs/agent/features/openai-providers.md](https://github.com/cercano-ai/Cercano/blob/main/docs/agent/features/openai-providers.md). 
-
-
 ## What it is
 
 Cercano can connect to OpenAI-compatible Chat Completions endpoints using a
@@ -25,7 +22,7 @@ Subscription sign-in is not a universal replacement for API credentials. Account
 eligibility, usage limits, provider terms, and third-party-client support apply;
 availability can change. An implemented sign-in path is not a promise of provider
 endorsement or unlimited access. Check the options presented in `/config` → **Cloud** and the
-[current provider reference](https://github.com/cercano-ai/Cercano/blob/main/docs/agent/README.md).
+provider-specific controls available in your installed version.
 
 ## Why it matters
 
@@ -44,8 +41,38 @@ destination in **Routing**, save the settings, and test a small read-only task.
 `/cloud` lists profiles; `/cloud use <name>` selects the active profile and
 `/cloud key <name> <api-key>` updates a key. It is not the profile editor.
 
-See the [OpenAI-compatible setup guide](https://github.com/cercano-ai/Cercano/blob/main/docs/agent/cloud-openai.md) and
-[cloud routing guide](https://github.com/cercano-ai/Cercano/blob/main/docs/cloud-routing.md) for configuration details.
+## Route work deliberately
+
+Cercano separates three choices: what kind of task is being performed, how much
+model capability it needs, and where it runs. Task classes such as
+reconnaissance, investigation, mechanical development, and implementation have
+saved quality and destination settings.
+
+Primary, Secondary, and Local are independent destinations. Each cloud
+destination has its own model profile and optional backups. Redirects change
+initial placement; backups respond to failures. Check the reported final route
+instead of inferring destination, privacy, or cost from a task's default.
+
+Open `/config`, select **Routing**, and compare the assignments for
+**Reconnaissance** and **Implementation**. Adjust destination and quality
+independently, save the changes, then run a delegated read-only task and inspect
+its reported route.
+
+## Run local models
+
+Cercano integrates a managed `llama-server` runtime for open-weight models.
+Ollama and an optional managed `mistral.rs` sidecar are also supported. Runtime
+setup, model selection, and process lifecycle sit inside the agent experience
+rather than requiring a separate inference service assembled from scratch.
+
+Open `/config` and inspect **Runtime** and **Local Models**. Choose a supported
+runtime and a model appropriate for your hardware, allow any required download
+to complete, then assign suitable work to Local in **Routing**.
+
+Local execution still has model downloads, disk, memory, compute, and quality
+tradeoffs. It avoids hosted per-token charges for the inference that actually
+runs locally; it does not make hardware, electricity, tools, downloads, or
+other configured routes free.
 
 ## Controls and limitations
 
@@ -58,6 +85,10 @@ See the [OpenAI-compatible setup guide](https://github.com/cercano-ai/Cercano/bl
   pricing and data policies. An open-weight model does not imply local inference.
 - OpenAI Responses and subscription sign-in are distinct provider paths; support
   for Chat Completions does not imply identical behavior across those paths.
+- Quality selects a model within a destination. It does not grant tools or
+  override placement policy.
+- Secondary is a separate destination, not merely Primary's implicit backup.
 
-Back to the [feature index](https://github.com/cercano-ai/Cercano/blob/main/docs/agent/features/README.md).
+See [delegation and subagents](../delegation/), [token metrics](../metrics/), and
+the [complete feature guide](../features/).
 

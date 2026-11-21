@@ -10,7 +10,12 @@ Sources are relative to `~/git_repos/cercano-ai/`. Copied pages preserve technic
 | /getting-started/first-run/ | `Cercano/docs/installation-macos.md`<br>`Cercano/docs/agent/features/advanced-terminal-ui.md` | Curated overview / source links |
 | /getting-started/connect/ | `Cercano/docs/enterprise-connection.md` | Adapted guide |
 | /cercano/tui/ | `Cercano/docs/agent/features/advanced-terminal-ui.md` | Adapted guide |
-| /cercano/models/ | `Cercano/docs/agent/features/openai-providers.md` | Adapted guide |
+| /cercano/models/ | `Cercano/docs/agent/features/openai-providers.md`<br>`Cercano/docs/agent/features/advanced-routing.md`<br>`Cercano/docs/agent/features/integrated-local-runtime.md` | Adapted guide |
+| /cercano/features/ | `Cercano/website/app/page.tsx`<br>`Cercano/docs/agent/features/README.md` | Migrated feature index |
+| /cercano/delegation/ | `Cercano/docs/agent/features/built-in-delegation.md`<br>`Cercano/website/public/videos/delegation.*` | Adapted guide and product demonstration |
+| /cercano/context/ | `Cercano/docs/agent/features/context-management.md`<br>`Cercano/docs/agent/features/automatic-session-retention.md`<br>`Cercano/website/public/videos/sessions.*` | Combined adapted guide and product demonstration |
+| /cercano/metrics/ | `Cercano/docs/agent/features/advanced-metrics.md`<br>`Cercano/website/public/videos/metrics.*` | Adapted guide and product demonstration |
+| /cercano/architecture/ | `Cercano/docs/agent/features/client-server-architecture.md` | Adapted guide and documentation-native diagram |
 | /cercloud/model-policy/ | `cercano-enterprise/docs/policy-publication.md` | Adapted guide |
 | /cercloud/shared-skills/ | `Cercano/docs/enterprise-shared-skills.md` | Adapted guide |
 | /cercano/ | `Cercano/docs/README.md`<br>`Cercano/docs/acp.md`<br>`Cercano/docs/agent/independent-tasks.md`<br>`Cercano/docs/agent/features/context-management.md`<br>`Cercloud/product/hosted-collaboration.md` | Curated overview / source links |

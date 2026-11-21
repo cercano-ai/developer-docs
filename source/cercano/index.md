@@ -1,32 +1,43 @@
 ---
 title: "Use Cercano"
 section: "Cercano"
-description: "Use Cercano for Cercano and Cercloud."
+description: "Use the Cercano agent runtime, terminal, models, delegation, context, metrics, and integrations."
 ---
 
-Cercano provides the runtime, terminal client, routing, tools, and context management for agent work. Start with the user guides below. Feature specifications elsewhere in the repository may include proposed behavior.
+Cercano is the free and open source agent runtime and developer experience. It
+connects the terminal, headless commands, model providers, local runtimes,
+tools, delegated work, and persistent sessions without locking the workflow to
+one inference vendor.
 
-## Terminal and model setup
+<figure class="video-figure"><video controls playsinline preload="metadata" poster="../assets/videos/terminal-ui.jpg" aria-label="Cercano terminal interface and themes"><source src="../assets/videos/terminal-ui.mp4" type="video/mp4" />Your browser does not support embedded video.</video><figcaption>A polished terminal interface, including the palettes used across Cercano and Cercloud.</figcaption></figure>
 
-- [Terminal user interface](tui/)
-- [Models and providers](models/)
-- [First run](../getting-started/first-run/)
+## Start with the work in front of you
 
-<figure><img src="../assets/terminal-ui.jpg" alt="The Cercano terminal client showing its configuration and theme interface." /><figcaption>Actual terminal UI image reused from the Cercano website.</figcaption></figure>
+<div class="path-list">
+<a href="../getting-started/install/"><strong>Install Cercano</strong><span>Install the packaged client and runtime, then launch your first session.</span></a>
+<a href="../getting-started/first-run/"><strong>Start your first session</strong><span>Choose a model source and learn the essential controls.</span></a>
+<a href="models/"><strong>Choose models and providers</strong><span>Use subscriptions, hosted providers, local models, and deliberate task routing.</span></a>
+<a href="delegation/"><strong>Delegate bounded work</strong><span>Keep investigations and scoped execution in separate agent contexts.</span></a>
+<a href="context/"><strong>Manage long-running work</strong><span>Understand background compaction, saved sessions, retention, search, and resume.</span></a>
+<a href="features/"><strong>Browse the complete feature guide</strong><span>Explore workflows, metrics, terminal behavior, and runtime architecture.</span></a>
+</div>
 
-## Sessions, context, and configuration
+## Interfaces and integrations
 
-Use the [agent command guide](https://github.com/cercano-ai/Cercano/blob/main/docs/agent/README.md), [independent task guide](https://github.com/cercano-ai/Cercano/blob/main/docs/agent/independent-tasks.md), and [context management guide](https://github.com/cercano-ai/Cercano/blob/main/docs/agent/features/context-management.md). [Configuration reference](../reference/) links to the current source of truth.
+The terminal is one interface to the agent service. Cercano also supports
+headless commands and integration surfaces documented for their specific
+clients. Availability and interaction details can differ by client; do not
+assume that every terminal interaction maps directly onto a scripted or editor
+workflow.
 
-## IDE integrations
+Cercloud adds organization identity, signed model policy, managed skills, shared
+context, cost controls, auditability, and other team capabilities. Start with
+[Connect to Cercloud](../getting-started/connect/) when your administrator gives
+you an organization invitation and service origin.
 
-The [ACP guide](https://github.com/cercano-ai/Cercano/blob/main/docs/acp.md) is the initial source for compatible editor integrations. The repository also contains older IDE plans; installation and feature parity need an editor-specific documentation pass before migration.
+## Extend the system
 
-## Persistent agents
-
-The [hosted collaboration brief](https://github.com/cercano-ai/Cercloud/blob/main/product/hosted-collaboration.md) describes the intended always-on experience. A verified hosted-agent onboarding guide, lifecycle contract, and deployment availability remain gaps. Persistent sessions and independent tasks do not by themselves establish a hosted always-on service.
-
-## Skills, agents, plugins, and workflows
-
-[Extend the platform](../extend/) for current guides and the distinction between built-in, personal, repository, and enterprise skills.
-
+[Workflows, skills, and integrations](../extend/) cover repeatable agent
+processes and current extension surfaces. The complete source and Apache 2.0
+license remain available in the
+[Cercano repository](https://github.com/cercano-ai/Cercano).

@@ -27,6 +27,7 @@ The current enterprise implementation governs Cercano through signed policies en
 - [Install Cercano](getting-started/install/) — macOS packaged installation, with Linux and Windows source guides.
 - [First run](getting-started/first-run/) — select a model source and launch the terminal client.
 - [Explore the TUI](cercano/tui/) — settings, themes, context, and delegated work.
+- [Browse Cercano features](cercano/features/) — models, delegation, workflows, context, metrics, sessions, and architecture.
 - [Understand model policy](cercloud/model-policy/) — approved routes and immutable publication.
 
 > This is an initial documentation draft. Product availability follows the linked implementation guides; the broader platform narrative includes planned capabilities. See [scope and open questions](about-this-draft/).
