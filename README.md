@@ -1,6 +1,6 @@
 # Cercano + Cercloud developer documentation
 
-Review draft built with Chloroplast. Source repository: https://github.com/cercano-ai/developer-docs. Proposed website destination: https://developer.cercloud.ai. Source publication is authorized; deployment, DNS changes, production edits, and CNAME activation remain pending review and approval.
+Documentation built with Chloroplast and published through GitHub Pages at https://developer.cercloud.ai. Source repository: https://github.com/cercano-ai/developer-docs. The user authorized public repository visibility, GitHub Pages publishing, and the developer subdomain DNS configuration. Content availability caveats remain visible while the initial documentation migration is in review.
 
 ## Run locally
 
@@ -24,13 +24,21 @@ The machine initially had global `Chloroplast.Tool 0.14.262-local` (banner assem
 
 Chloroplast has no native search/indexer or syntax-highlighting implementation in the inspected source. After Chloroplast generates the pages, `scripts/build.mjs` uses pinned Highlight.js at build time and writes a static full-text JSON index. The lightweight browser search ranks matching titles first and renders keyboard-accessible links, empty/error states, and live result announcements. It searches only this draft, not linked external guides. No runtime service or alternate site generator is involved.
 
-## Publishing later, after approval
+## Publishing with GitHub Pages
 
-1. Review the draft, reconcile the gaps in `review/`, confirm public source-link visibility, and select the eventual repository name/ownership.
-2. Re-run bootstrap/build/check on the approved source and enable a GitHub Pages artifact workflow. A suitable workflow installs .NET 8 and Node 22, runs `npm ci`, `npm run bootstrap`, `npm run build`, `npm run check`, then uploads only `out/` using the official Pages artifact/action flow. There is deliberately no active publishing workflow in this draft.
-3. For an initial project Pages URL, set `baseUrl` to `https://cercano-ai.github.io/REPOSITORY/` and `basePath` to `/REPOSITORY`; rebuild and check with `python3 scripts/check-links.py out /REPOSITORY`. A local root preview can use `npm run build -- --no-basepath`.
-4. For the approved custom domain, use `baseUrl: https://developer.cercloud.ai` and an empty basePath (current config). Add `developer.cercloud.ai` to `out/CNAME` through a tracked source asset/build step only when authorized, configure the repository Pages custom domain, and have the domain owner add GitHub’s required DNS record. Enable HTTPS after domain verification. No CNAME/DNS has been added now.
-5. Remove the draft `noindex,nofollow` meta and review-draft labels before public release; confirm robots/sitemap/canonical policy. The generated sitemap currently names the future domain and is local-only. `.nojekyll` is added to output.
+`.github/workflows/pages.yml` builds on pushes to `main` and manual dispatch. It installs .NET 8 and Node 22, restores the pinned Chloroplast source tool, builds and validates the static site, and uploads only `out/` with the official Pages artifact/deployment actions. The source repository is public so it can use Pages on the organization's Free plan.
+
+`SiteConfig.yml` sets `baseUrl: https://developer.cercloud.ai` with an empty basePath. `source/CNAME` is copied into the generated output, documenting the intended domain; the Pages API/settings custom-domain setting is authoritative for this Actions-based deployment. `.nojekyll` is added by the build. Site-wide draft noindex was removed for publication; content scope and implementation caveats remain intact.
+
+DNS Made Easy record for the cercloud.ai zone:
+
+| Type | Name | Target | TTL |
+| --- | --- | --- | --- |
+| CNAME | developer | cercano-ai.github.io. | 300 |
+
+The CNAME points to the organization Pages hostname, without a repository path. Configure the custom domain on GitHub before pointing DNS, then enable HTTPS when GitHub's certificate is available. The apex domain, mail records, and other subdomains are outside this change.
+
+For a temporary project Pages URL instead of the custom domain, set the corresponding baseUrl and `/developer-docs` basePath, rebuild, and validate with `python3 scripts/check-links.py out /developer-docs`.
 
 ## Review materials
 
