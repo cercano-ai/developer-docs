@@ -3,7 +3,7 @@
 Checked on 2026-11-20, America/Los_Angeles.
 
 - Pinned Chloroplast source bootstrap: PASS. Clean tracked archive at 5a580a656bb305532fda485b91fa18d291b84eda packaged and installed project-locally as 0.14.262-docs.5a580a6. Upstream emits nullable-annotation warnings and a package-readme warning; no build errors. No changes to global tooling or the original Chloroplast checkout.
-- Static build: PASS, 22 HTML pages. Chloroplast's automatic site validation reports no issues.
+- Static build: PASS, 24 HTML pages. Chloroplast's automatic site validation reports no issues.
 - Independent final-output check: PASS, internal links, fragment targets, CSS, scripts, ordinary images, both theme-image variants, and all search destination paths.
 - Project Pages base-path check: PASS at /developer-docs with matching GitHub Pages baseUrl. Config and output restored to custom-domain root settings after the check.
 - HTTP preview: PASS, 200 response from http://127.0.0.1:4321/.

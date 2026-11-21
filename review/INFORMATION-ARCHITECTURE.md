@@ -1,6 +1,6 @@
 # Proposed information architecture
 
-The 22-page site implements the navigation shell, representative product documentation, and the detailed Cercano feature material migrated out of the static marketing site. Nested items below that do not have their own local page are covered by a section in the parent hub and linked to repository evidence, or explicitly marked as a gap. No empty destination or invented setup guide is presented as finished documentation.
+The 24-page site implements the navigation shell, representative product documentation, and the detailed Cercano feature material migrated out of the static marketing site. Nested items below that do not have their own local page are covered by a section in the parent hub and linked to repository evidence, or explicitly marked as a gap. No empty destination or invented setup guide is presented as finished documentation.
 
 - Documentation home — choose one of five tasks.
 - Getting started

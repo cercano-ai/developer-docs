@@ -10,7 +10,9 @@ inside one coherent system. This guide preserves the detailed product material
 that does not belong on the shorter Cercano homepage.
 
 <div class="feature-directory">
-<a href="../models/"><strong>Models, providers, and routing</strong><span>Use subscriptions, API providers, hosted open-weight models, or local runtimes. Route work by task, quality, and destination.</span></a>
+<a href="../models/"><strong>Models and providers</strong><span>Use subscriptions, API providers, hosted open-weight models, or local runtimes through one agent.</span></a>
+<a href="../routing/"><strong>Model routing</strong><span>Route work by task, model quality, and destination so stronger models are used where they matter.</span></a>
+<a href="../multimodal/"><strong>Images and audio</strong><span>Inspect attached images and invoke specialized image or audio models from the same workflow.</span></a>
 <a href="../delegation/"><strong>Delegation and subagents</strong><span>Dispatch bounded work into separate contexts and inspect each agent without crowding the main conversation.</span></a>
 <a href="../../extend/"><strong>Workflows and skills</strong><span>Use repeatable research, planning, debugging, verification, and extension workflows instead of one oversized prompt.</span></a>
 <a href="../context/"><strong>Context and sessions</strong><span>Keep long jobs moving with background compaction, durable history, search, and resume.</span></a>

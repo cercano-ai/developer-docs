@@ -17,6 +17,8 @@ one inference vendor.
 <a href="../getting-started/install/"><strong>Install Cercano</strong><span>Install the packaged client and runtime, then launch your first session.</span></a>
 <a href="../getting-started/first-run/"><strong>Start your first session</strong><span>Choose a model source and learn the essential controls.</span></a>
 <a href="models/"><strong>Choose models and providers</strong><span>Use subscriptions, hosted providers, local models, and deliberate task routing.</span></a>
+<a href="routing/"><strong>Route work deliberately</strong><span>Choose task, quality, and destination independently so every job does not use the same model.</span></a>
+<a href="multimodal/"><strong>Work with images and audio</strong><span>Inspect images and invoke specialized media models without leaving the agent workflow.</span></a>
 <a href="delegation/"><strong>Delegate bounded work</strong><span>Keep investigations and scoped execution in separate agent contexts.</span></a>
 <a href="context/"><strong>Manage long-running work</strong><span>Understand background compaction, saved sessions, retention, search, and resume.</span></a>
 <a href="features/"><strong>Browse the complete feature guide</strong><span>Explore workflows, metrics, terminal behavior, and runtime architecture.</span></a>

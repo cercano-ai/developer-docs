@@ -49,4 +49,4 @@ For a temporary project Pages URL instead of the custom domain, set the correspo
 - [Source revisions and hashes](review/source-snapshot.json)
 - [Validation results](review/VALIDATION.md)
 
-The site has 22 pages, including adapted technical guides and the Cercano feature material migrated from the static marketing site. Other pages curate source-backed starting points and explicitly identify missing public contracts. It is not a full migration of every proposed documentation topic. No edits were made to the source product repositories.
+The site has 24 pages, including adapted technical guides and the Cercano feature material migrated from the static marketing site. Other pages curate source-backed starting points and explicitly identify missing public contracts. It is not a full migration of every proposed documentation topic. No edits were made to the source product repositories.
